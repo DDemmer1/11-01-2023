@@ -6,26 +6,27 @@ public class Application {
 
 	public static void main(String[] args) {
 
-		Hund hund1 = new Hund();
-		Hund hund2 = new Hund();
-		Hund hund3 = new Hund();
-		Hund hund4 = new Hund();
+		Item monitor = new Item("Monitor", 249.99);
+		Item maus = new Item("Maus", 50.00);
+		Item tasse = new Item("Tasse" , 4.99);
 
-		Hund[] hundArray = { hund1, hund2, hund3, hund4 };
-
-//		Arrays.sort(hundArray);
+		Item[] itemArray = {monitor, tasse, maus};
 		
-		hund1.compareTo(hund2);
+//		Item[] itemArray = new Item[3];
+//		itemArray[0] = i1;
+//		itemArray[1] = i2;
+//		itemArray[2] = i3;
 		
+		Arrays.sort(itemArray);
 		
+		//-1
+		maus.compareTo(monitor);
 		
-		int[] intArr = {5,7,8,1,9};
+		//+1
+		monitor.compareTo(tasse);
 		
-		Arrays.sort(intArr);
-		
-		System.out.println(Arrays.toString(intArr));
-		
-		
+		//0
+		maus.compareTo(maus);
 		
 	}
 
