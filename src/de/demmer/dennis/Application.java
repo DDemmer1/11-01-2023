@@ -28,6 +28,10 @@ public class Application {
 		//0
 		maus.compareTo(maus);
 		
+		
+		System.out.println(Arrays.toString(itemArray));
+		
+		
 	}
 
 }
