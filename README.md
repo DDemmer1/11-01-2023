@@ -2,7 +2,7 @@
 WS22 - Interfaces
 
 ### 📝 Aufgabe:
-- Implementiert eine Klasse ```Item```  mit den Attributen ```int id```, ```float price``` und ```String name``` und einem Konstruktor der alle Attribute abdeckt.
+- Implementiert eine Klasse ```Item```  mit den Attributen ```int id```, ```double price``` und ```String name``` und einem Konstruktor der alle Attribute abdeckt.
 - Außerdem soll die Klasse eine Methode ```public String toString()``` haben, die beim Aufruf alle Werte als ```String``` zurückgibt.<br>
 Bsp.: "Item: id=2, price=249.99, name=Monitor"
 
